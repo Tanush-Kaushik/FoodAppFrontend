@@ -160,4 +160,16 @@
 }
 
 
+@media screen and (max-width:950px)
+{
+    #filter{
+        margin-left: 35em;
+    }
+}
 
+@media screen and (max-width:800px)
+{
+    #filter{
+        margin-left: 13em;
+    }
+}
