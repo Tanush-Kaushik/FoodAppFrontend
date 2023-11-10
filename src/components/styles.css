@@ -1,0 +1,185 @@
+#but{
+    background-color: #45202e;
+    border-radius: 15px;
+    color: pink;
+}
+
+#but:hover{
+    background-color: #320b1a;
+}
+
+#but:active{
+    background-color: #8a4a62;
+}
+
+#nav{
+    background-color: #45202e;
+    
+}
+
+#logout{
+    background-color: #562739;
+    border-radius: 15px;
+    color: red;
+}
+
+#logout:hover{
+    background-color: #320b1a;
+    border-radius: 15px;
+}
+
+#myCart{
+    background-color: #562739;
+    border-radius: 15px;
+    color: pink;
+}
+
+#myCart:hover{
+    background-color: #320b1a;
+    border-radius: 15px;
+}
+
+#login{
+    background-color: #562739;
+    border-radius: 0.8rem;
+    color: pink;
+    /* font-size: rem; */
+    transition: all 0.5s ease;
+} 
+
+#login:hover{
+    background-color: #320b1a;
+    border-radius: 0.8rem;
+}
+
+#card{
+    background-color: #45202e;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+
+#addToCart{
+    background-color: rgb(116, 51, 51);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+}
+
+#addToCart:hover{
+    background-color: rgb(90, 39, 39);
+}
+
+#bar{
+    background-color: #45202e ;
+    border-radius: 20px;
+    border: none;
+}
+
+.head{
+    color: pink;
+}
+
+#delete{
+    background-color: #74374e;
+    color: red;
+    border-radius: 10px;
+    border: none;
+}
+
+#delete:hover{
+    background-color: #602d40;
+}
+
+#cross{
+    background-color:rgb(250, 47, 47);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#co{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
+
+#co:hover{
+    background-color: rgb(3, 177, 3);
+}
+
+#co:active{
+    background-color: rgb(2, 72, 2);
+}
+
+#hcard{
+    background-color: #45202e;
+    border-radius: 30px;
+    border: none;
+}
+
+#exampleInputEmail1{
+    background-color: #45202e;
+    border-radius: 10px;
+    border: none;
+}
+
+#sub{
+    background-color: green;
+    border: none;
+    border-radius: 10px ;
+}
+
+#sub:hover{
+    background-color: rgb(1, 95, 1);
+}
+
+#sub:active{
+    background-color: rgb(66, 111, 66);
+}
+
+#su{
+    background-color: #43202e;
+    margin-left: 20px;
+    margin-bottom: 9px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+#su:hover{
+    background-color: #5f3144;
+}
+
+.h{
+    text-align: center;
+}
+
+#filter{
+    background-color: #45202e;
+    border-radius: 0.8em;
+    margin-left: 65em;
+    margin-top: 2em;
+    padding: 0.2em;
+    border: none;
+    padding: 0.25em;
+}
+
+@media screen and (max-width:950px)
+{
+    #filter{
+        margin-left: 35em;
+    }
+}
+
+@media screen and (max-width:800px)
+{
+    #filter{
+        margin-left: 13em;
+    }
+}
+
+
+
+
+
