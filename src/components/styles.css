@@ -165,6 +165,13 @@
     padding: 0.25em;
 }
 
+@media screen and (max-width:1400px)
+{
+    #filter{
+        margin-left: 55em;
+    }
+}
+
 @media screen and (max-width:950px)
 {
     #filter{
@@ -200,12 +207,6 @@
     }
 }
 
-@media screen and (max-width:1400px)
-{
-    #filter{
-        margin-left: 55em;
-    }
-}
 
 
 
