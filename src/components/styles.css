@@ -172,10 +172,38 @@
     }
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:500px)
 {
     #filter{
         margin-left: 13em;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    #filter{
+        margin-left: 30em;
+    }
+}
+
+@media screen and (max-width:450px)
+{
+    #filter{
+        margin-left: 15em;
+    }
+}
+
+@media screen and (max-width:400px)
+{
+    #filter{
+        margin-left: 13em;
+    }
+}
+
+@media screen and (max-width:1400px)
+{
+    #filter{
+        margin-left: 45em;
     }
 }
 
