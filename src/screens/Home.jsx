@@ -95,11 +95,11 @@ export default function Home() {
         {
           foodCategory != [] ? foodCategory.map((data) => {
             return (<div className='row mb-3'>
-
+              <br/>
               <div key={data._id} className='fs-3 m-3'>
                 {data.CategoryName}
               </div>
-              <hr />
+              <br />
 
               {
                 foodItem != []
