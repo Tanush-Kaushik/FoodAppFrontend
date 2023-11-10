@@ -46,8 +46,9 @@ export default function MyOrders() {
                                                 {
                                                     obj.order_date?
                                                     <div>
+                                                        <br/>
                                                         <div className='m-auto mt-5'>{obj.order_date}</div>
-                                                        <hr/>
+                                                        <br/>
                                                     </div>
                                                     :<div>
                                                         <div className='col-12 col-md-6 col-lg-3'>
