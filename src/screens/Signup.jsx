@@ -121,7 +121,7 @@ export default function Signup() {
                     <div className="mb-3">
                         <label htmlFor="exampleInputEmail1" className="form-label fs-5">Email address</label>
                         <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name='email' value={credentials.email} onChange={onChange} />
-                        <div id="emailHelp" className="form-text">Please enter a valid email (doesn't have to be real)</div>
+                        <div id="emailHelp" className="form-text">Please enter a valid email</div>
                     </div>
                     <div className="mb-3">
                         <label htmlFor="exampleInputPassword1" className="form-label fs-5">Password</label>
