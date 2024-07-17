@@ -38,6 +38,7 @@ export default function Cart() {
         if (response.status == 200) {
             dispatch({ type: 'DROP' })
         }
+        response = await response.json()
 
         const { data: { key } } = await axios.get(process.env.REACT_APP_BACKEND_URL +"/api/getKey")
 
@@ -55,8 +56,8 @@ export default function Cart() {
             order_id: order.id,
             callback_url: process.env.REACT_APP_BACKEND_URL +"/api/verifyPayment",
             prefill: {
-                name: "Gaurav Kumar",
-                email: "gaurav.kumar@example.com",
+                name: response.name,
+                email: userEmail,
                 contact: "9999999999"
             },
             notes: {
